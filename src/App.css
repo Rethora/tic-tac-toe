@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+button {
+  margin: 10px!important;
+  background: none;
+  border: none;
+  font-size: 30px!important;
+  opacity: 0.4;
+}
+
+button:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.game-container {
+  width: 300px;
+  margin: 0 auto!important;
+}
+
+.ui.grid>.row {
+  padding: 0!important;
+}
+
+.tic-tac-toe-square {
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tic-tac-toe-square:hover {
+  cursor: pointer;
+}
+
+.highlight-win {
+  background-color: rgba(50, 235, 50, 0.644);
+  font-weight: bold;
+}
+
+.highlight-loss {
+  background-color: rgba(245, 61, 61, 0.644);
+  font-weight: bold;
+}
